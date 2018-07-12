@@ -1,0 +1,44 @@
+.navbar {
+    border-bottom: blue 3px solid;
+}
+
+#main-footer {
+    border-top: blue 3px solid;
+}
+
+#header-section {
+    margin-top: 75px;
+    background: url(../img/scotland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 560px;
+}
+
+#header-section .dark-overlay {
+    margin-top: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 560px;
+} 
+
+.card img {
+    height: 300px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    min-height: 300px;
+}
+
+.active {
+    color: blue;
+}
